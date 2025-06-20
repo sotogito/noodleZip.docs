@@ -4,68 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bed8ee25c175f6f",
-        "type": "split",
-        "children": [
-          {
-            "id": "f392b3450cbb247f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dfb15d6a8bbf6ec9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "마이페이지/배지/2/카테고리.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "카테고리"
-                }
-              }
-            ]
-          },
-          {
-            "id": "41f0122888e4dad3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "08f85e3bba31862a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "마이페이지/배지/2/상세.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "상세"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "de1502af2517ae4b",
+        "id": "f392b3450cbb247f",
         "type": "tabs",
         "children": [
           {
-            "id": "53721fe007968faa",
+            "id": "dfb15d6a8bbf6ec9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/배지/2/로직 - 카테고리별.md",
+                "file": "깃허브 슬랙 연동/로깅 슬랙 연동 방법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "로직 - 카테고리별"
+              "title": "로깅 슬랙 연동 방법"
             }
           }
         ]
@@ -216,11 +169,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53721fe007968faa",
+  "active": "dfb15d6a8bbf6ec9",
   "lastOpenFiles": [
-    "마이페이지/배지/2/상세.md",
-    "마이페이지/배지/2/로직 - 카테고리별.md",
+    "깃허브 슬랙 연동/깃허브 로그백 연동.md",
+    "깃허브 슬랙 연동/웹 후크 URL.md",
+    "깃허브 슬랙 연동/로깅 슬랙 연동 방법.md",
     "마이페이지/배지/2/카테고리.md",
+    "마이페이지/배지/2/로직 - 카테고리별.md",
+    "깃허브 슬랙 연동",
+    "마이페이지/배지/2/상세.md",
     "마이페이지/배지/1/배지 상세.md",
     "마이페이지/배지/참고자료.md",
     "마이페이지/배지/1/배지 카테고리.md",

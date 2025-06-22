@@ -1,15 +1,15 @@
 #### tbl_badge_category
-|badge_category_id|badge_category_name|is_event|category_group|badge_description|
-|---|---|---|---|---|
-|1|리뷰 좋아요 배지|false|LIKE|리뷰 좋아요 수에 따라 지급|
-|2|게시글 좋아요 배지|false|LIKE|게시글 좋아요 수에 따라 지급|
-|3|게시글 작성 수 배지|false|POST|게시글 누적 수에 따라 지급|
-|4|댓글 작성 수 배지|false|POST|댓글 누적 수에 따라 지급|
-|5|지역 라멘 리뷰 배지|false|REGION|지역별 리뷰 누적 수 기준|
-|6|라멘 종류별 배지|false|RAMEN_CATEGORY|라멘 종류별 리뷰 수 기준|
-|7|첫 리뷰 배지|true|(null)|매장 첫 리뷰 작성 시 지급|
-|8|라멘집 개척자 배지|true|(null)|처음으로 매장 등록 시 지급|
-|9|리뷰 100개 달성 배지|true|(null)|리뷰 총 수 100개 달성 시 지급|
+| badge_category_id | badge_category_name | is_event | category_group | badge_description   |
+| ----------------- | ------------------- | -------- | -------------- | ------------------- |
+| 1                 | 리뷰 좋아요 배지           | false    | LIKE           | 리뷰 좋아요 수에 따라 지급     |
+| 2                 | 게시글 좋아요 배지          | false    | LIKE           | 게시글 좋아요 수에 따라 지급    |
+| 3                 | 게시글 작성 수 배지         | false    | POST           | 게시글 누적 수에 따라 지급     |
+| 4                 | 댓글 작성 수 배지          | false    | POST           | 댓글 누적 수에 따라 지급      |
+| 5                 | 지역 라멘 리뷰 배지         | false    | REGION         | 지역별 리뷰 누적 수 기준      |
+| 6                 | 라멘 종류별 배지           | false    | RAMEN_CATEGORY | 라멘 종류별 리뷰 수 기준      |
+| 7                 | 첫 리뷰 배지             | true     | (null)         | 매장 첫 리뷰 작성 시 지급     |
+| 8                 | 라멘집 개척자 배지          | true     | (null)         | 처음으로 매장 등록 시 지급     |
+| 9                 | 리뷰 100개 달성 배지       | true     | (null)         | 리뷰 총 수 100개 달성 시 지급 |
 
 #### tbl_badge
 |badge_id|badge_category_id|badge_name|completion_value|badge_level|region_sido|ramen_category|active_status|

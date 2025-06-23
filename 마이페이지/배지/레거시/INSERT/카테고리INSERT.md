@@ -1,8 +1,8 @@
 ```
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (1, 1, 'REVIEW_GET_LIKE_COUNT_BADGE', 'review_get_like_count_badge', 0);
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (2, 1, 'COMMUNITY_GET_LIKE_COUNT_BADGE', 'community_get_like_count_badge', 0);
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (3, 2, 'COMMUNITY_POST_COUNT_BADGE', 'community_post_count_badge', 0);
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (4, 2, 'COMMENT_POST_COUNT_BADGE', 'comment_post_count_badge', 0);
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (5, 3, 'RAMEN_REGION_BADGE', 'ramen_region_badge', 0);
-INSERT INTO tbl_badge_category (badge_category_id, badge_group_id, badge_category_name, badge_description, is_event) VALUES (6, 4, 'RAMEN_CATEGORY_BADGE', 'ramen_category_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (1, 'REVIEW_GET_LIKE_COUNT_BADGE', 'review_get_like_count_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (1, 'COMMUNITY_GET_LIKE_COUNT_BADGE', 'community_get_like_count_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (2, 'COMMUNITY_POST_COUNT_BADGE', 'community_post_count_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (2, 'COMMENT_POST_COUNT_BADGE', 'comment_post_count_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (3, 'RAMEN_REGION_BADGE', 'ramen_region_badge', 0);
+INSERT INTO tbl_badge_category (badge_group_id, badge_category_name, badge_description, is_event) VALUES (4, 'RAMEN_CATEGORY_BADGE', 'ramen_category_badge', 0);
 ```

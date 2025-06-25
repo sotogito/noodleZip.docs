@@ -96,39 +96,64 @@ INSERT INTO tbl_badge (
 
 #### 라멘 카테고리
 ```
-INSERT INTO tbl_badge (  
-    badge_category_id, badge_image_url, badge_name, badge_level,  
-    completion_value, next_badge_id, event_start_at, event_end_at,  
-    active_status, created_at, updated_at, store_sido_legal_code, ramen_category_id  
-) VALUES  
-      (6, NULL, 'level1', 1, 1, 2, NULL, NULL, 1, NOW(), NULL, NULL, 1),  
-      (6, NULL, 'level2', 2, 3, 3, NULL, NULL, 1, NOW(), NULL, NULL, 1),  
-      (6, NULL, 'level3', 3, 5, 4, NULL, NULL, 1, NOW(), NULL, NULL, 1),  
-      (6, NULL, 'level4', 4, 7, 5, NULL, NULL, 1, NOW(), NULL, NULL, 1),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 1),  
-      (6, NULL, 'level1', 1, 1, 7, NULL, NULL, 1, NOW(), NULL, NULL, 2),  
-      (6, NULL, 'level2', 2, 3, 8, NULL, NULL, 1, NOW(), NULL, NULL, 2),  
-      (6, NULL, 'level3', 3, 5, 9, NULL, NULL, 1, NOW(), NULL, NULL, 2),  
-      (6, NULL, 'level4', 4, 7, 10, NULL, NULL, 1, NOW(), NULL, NULL, 2),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 2),  
-      (6, NULL, 'level1', 1, 1, 12, NULL, NULL, 1, NOW(), NULL, NULL, 3),  
-      (6, NULL, 'level2', 2, 3, 13, NULL, NULL, 1, NOW(), NULL, NULL, 3),  
-      (6, NULL, 'level3', 3, 5, 14, NULL, NULL, 1, NOW(), NULL, NULL, 3),  
-      (6, NULL, 'level4', 4, 7, 15, NULL, NULL, 1, NOW(), NULL, NULL, 3),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 3),  
-      (6, NULL, 'level1', 1, 1, 17, NULL, NULL, 1, NOW(), NULL, NULL, 4),  
-      (6, NULL, 'level2', 2, 3, 18, NULL, NULL, 1, NOW(), NULL, NULL, 4),  
-      (6, NULL, 'level3', 3, 5, 19, NULL, NULL, 1, NOW(), NULL, NULL, 4),  
-      (6, NULL, 'level4', 4, 7, 20, NULL, NULL, 1, NOW(), NULL, NULL, 4),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 4),  
-      (6, NULL, 'level1', 1, 1, 22, NULL, NULL, 1, NOW(), NULL, NULL, 5),  
-      (6, NULL, 'level2', 2, 3, 23, NULL, NULL, 1, NOW(), NULL, NULL, 5),  
-      (6, NULL, 'level3', 3, 5, 24, NULL, NULL, 1, NOW(), NULL, NULL, 5),  
-      (6, NULL, 'level4', 4, 7, 25, NULL, NULL, 1, NOW(), NULL, NULL, 5),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 5),  
-      (6, NULL, 'level1', 1, 1, 27, NULL, NULL, 1, NOW(), NULL, NULL, 6),  
-      (6, NULL, 'level2', 2, 3, 28, NULL, NULL, 1, NOW(), NULL, NULL, 6),  
-      (6, NULL, 'level3', 3, 5, 29, NULL, NULL, 1, NOW(), NULL, NULL, 6),  
-      (6, NULL, 'level4', 4, 7, 30, NULL, NULL, 1, NOW(), NULL, NULL, 6),  
-      (6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 6);
+INSERT INTO tbl_badge (
+  badge_category_id, badge_image_url, badge_name, badge_level,
+  completion_value, next_badge_id, event_start_at, event_end_at,
+  active_status, created_at, updated_at, store_sido_legal_code, ramen_category_id
+) VALUES
+(6, NULL, 'level1', 1, 1, 87, NULL, NULL, 1, NOW(), NULL, NULL, 1),
+(6, NULL, 'level2', 2, 3, 88, NULL, NULL, 1, NOW(), NULL, NULL, 1),
+(6, NULL, 'level3', 3, 5, 89, NULL, NULL, 1, NOW(), NULL, NULL, 1),
+(6, NULL, 'level4', 4, 7, 90, NULL, NULL, 1, NOW(), NULL, NULL, 1),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 1),
+(6, NULL, 'level1', 1, 1, 92, NULL, NULL, 1, NOW(), NULL, NULL, 2),
+(6, NULL, 'level2', 2, 3, 93, NULL, NULL, 1, NOW(), NULL, NULL, 2),
+(6, NULL, 'level3', 3, 5, 94, NULL, NULL, 1, NOW(), NULL, NULL, 2),
+(6, NULL, 'level4', 4, 7, 95, NULL, NULL, 1, NOW(), NULL, NULL, 2),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 2),
+(6, NULL, 'level1', 1, 1, 97, NULL, NULL, 1, NOW(), NULL, NULL, 3),
+(6, NULL, 'level2', 2, 3, 98, NULL, NULL, 1, NOW(), NULL, NULL, 3),
+(6, NULL, 'level3', 3, 5, 99, NULL, NULL, 1, NOW(), NULL, NULL, 3),
+(6, NULL, 'level4', 4, 7, 100, NULL, NULL, 1, NOW(), NULL, NULL, 3),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 3),
+(6, NULL, 'level1', 1, 1, 102, NULL, NULL, 1, NOW(), NULL, NULL, 4),
+(6, NULL, 'level2', 2, 3, 103, NULL, NULL, 1, NOW(), NULL, NULL, 4),
+(6, NULL, 'level3', 3, 5, 104, NULL, NULL, 1, NOW(), NULL, NULL, 4),
+(6, NULL, 'level4', 4, 7, 105, NULL, NULL, 1, NOW(), NULL, NULL, 4),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 4),
+(6, NULL, 'level1', 1, 1, 107, NULL, NULL, 1, NOW(), NULL, NULL, 5),
+(6, NULL, 'level2', 2, 3, 108, NULL, NULL, 1, NOW(), NULL, NULL, 5),
+(6, NULL, 'level3', 3, 5, 109, NULL, NULL, 1, NOW(), NULL, NULL, 5),
+(6, NULL, 'level4', 4, 7, 110, NULL, NULL, 1, NOW(), NULL, NULL, 5),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 5),
+(6, NULL, 'level1', 1, 1, 112, NULL, NULL, 1, NOW(), NULL, NULL, 6),
+(6, NULL, 'level2', 2, 3, 113, NULL, NULL, 1, NOW(), NULL, NULL, 6),
+(6, NULL, 'level3', 3, 5, 114, NULL, NULL, 1, NOW(), NULL, NULL, 6),
+(6, NULL, 'level4', 4, 7, 115, NULL, NULL, 1, NOW(), NULL, NULL, 6),
+(6, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, 6);
+```
+
+#### 나머지
+```
+INSERT INTO tbl_badge (
+  badge_category_id, badge_image_url, badge_name, badge_level,
+  completion_value, next_badge_id, event_start_at, event_end_at,
+  active_status, created_at, updated_at, store_sido_legal_code, ramen_category_id
+) VALUES
+(1, NULL, 'level1', 1, 1, 117, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(1, NULL, 'level2', 2, 3, 118, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(1, NULL, 'level3', 3, 5, 119, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(1, NULL, 'level4', 4, 7, 120, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(1, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(2, NULL, 'level1', 1, 1, 122, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(2, NULL, 'level2', 2, 3, 123, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(2, NULL, 'level3', 3, 5, 124, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(2, NULL, 'level4', 4, 7, 125, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(2, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(3, NULL, 'level1', 1, 1, 127, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(3, NULL, 'level2', 2, 3, 128, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(3, NULL, 'level3', 3, 5, NULL, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(4, NULL, 'level1', 1, 1, 130, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(4, NULL, 'level2', 2, 3, 131, NULL, NULL, 1, NOW(), NULL, NULL, NULL),
+(4, NULL, 'level3', 3, 5, NULL, NULL, NULL, 1, NOW(), NULL, NULL, NULL);
 ```

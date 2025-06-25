@@ -1,129 +1,93 @@
 ```
-
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 1, NULL, 'review_get_like_count_badge_lv1', 1, 1, 1001, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 1, NULL, 'review_get_like_count_badge_lv2', 2, 5, 1002, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 1, NULL, 'review_get_like_count_badge_lv3', 3, 10, 1003, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 1, NULL, 'review_get_like_count_badge_lv4', 4, 15, 1004, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 1, NULL, 'review_get_like_count_badge_lv5', 5, 20, NULL, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 2, NULL, 'community_get_like_count_badge_lv1', 1, 1, 1006, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 2, NULL, 'community_get_like_count_badge_lv2', 2, 5, 1007, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 2, NULL, 'community_get_like_count_badge_lv3', 3, 10, 1008, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 2, NULL, 'community_get_like_count_badge_lv4', 4, 15, 1009, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 2, NULL, 'community_get_like_count_badge_lv5', 5, 20, NULL, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 3, NULL, 'community_post_count_badge_lv1', 1, 1, 1011, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 3, NULL, 'community_post_count_badge_lv2', 2, 5, 1012, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 3, NULL, 'community_post_count_badge_lv3', 3, 10, NULL, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 4, NULL, 'comment_post_count_badge_lv1', 1, 1, 1014, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 4, NULL, 'comment_post_count_badge_lv2', 2, 5, 1015, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, active_status, created_at) VALUES ( 4, NULL, 'comment_post_count_badge_lv3', 3, 10, NULL, 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_서울_lv1', 1, 1, 1017, '서울', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_서울_lv2', 2, 5, 1018, '서울', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_서울_lv3', 3, 10, 1019, '서울', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_서울_lv4', 4, 15, 1020, '서울', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_서울_lv5', 5, 20, NULL, '서울', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_부산_lv1', 1, 1, 1022, '부산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_부산_lv2', 2, 5, 1023, '부산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_부산_lv3', 3, 10, 1024, '부산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_부산_lv4', 4, 15, 1025, '부산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_부산_lv5', 5, 20, NULL, '부산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대구_lv1', 1, 1, 1027, '대구', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대구_lv2', 2, 5, 1028, '대구', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대구_lv3', 3, 10, 1029, '대구', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대구_lv4', 4, 15, 1030, '대구', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대구_lv5', 5, 20, NULL, '대구', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_인천_lv1', 1, 1, 1032, '인천', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_인천_lv2', 2, 5, 1033, '인천', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_인천_lv3', 3, 10, 1034, '인천', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_인천_lv4', 4, 15, 1035, '인천', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_인천_lv5', 5, 20, NULL, '인천', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_광주_lv1', 1, 1, 1037, '광주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_광주_lv2', 2, 5, 1038, '광주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_광주_lv3', 3, 10, 1039, '광주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_광주_lv4', 4, 15, 1040, '광주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_광주_lv5', 5, 20, NULL, '광주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대전_lv1', 1, 1, 1042, '대전', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대전_lv2', 2, 5, 1043, '대전', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대전_lv3', 3, 10, 1044, '대전', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대전_lv4', 4, 15, 1045, '대전', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_대전_lv5', 5, 20, NULL, '대전', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_울산_lv1', 1, 1, 1047, '울산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_울산_lv2', 2, 5, 1048, '울산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_울산_lv3', 3, 10, 1049, '울산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_울산_lv4', 4, 15, 1050, '울산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_울산_lv5', 5, 20, NULL, '울산', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_세종_lv1', 1, 1, 1052, '세종', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_세종_lv2', 2, 5, 1053, '세종', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_세종_lv3', 3, 10, 1054, '세종', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_세종_lv4', 4, 15, 1055, '세종', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_세종_lv5', 5, 20, NULL, '세종', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경기_lv1', 1, 1, 1057, '경기', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경기_lv2', 2, 5, 1058, '경기', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경기_lv3', 3, 10, 1059, '경기', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경기_lv4', 4, 15, 1060, '경기', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경기_lv5', 5, 20, NULL, '경기', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_강원_lv1', 1, 1, 1062, '강원', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_강원_lv2', 2, 5, 1063, '강원', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_강원_lv3', 3, 10, 1064, '강원', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_강원_lv4', 4, 15, 1065, '강원', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_강원_lv5', 5, 20, NULL, '강원', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충북_lv1', 1, 1, 1067, '충북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충북_lv2', 2, 5, 1068, '충북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충북_lv3', 3, 10, 1069, '충북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충북_lv4', 4, 15, 1070, '충북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충북_lv5', 5, 20, NULL, '충북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충남_lv1', 1, 1, 1072, '충남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충남_lv2', 2, 5, 1073, '충남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충남_lv3', 3, 10, 1074, '충남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충남_lv4', 4, 15, 1075, '충남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_충남_lv5', 5, 20, NULL, '충남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전북_lv1', 1, 1, 1077, '전북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전북_lv2', 2, 5, 1078, '전북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전북_lv3', 3, 10, 1079, '전북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전북_lv4', 4, 15, 1080, '전북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전북_lv5', 5, 20, NULL, '전북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전남_lv1', 1, 1, 1082, '전남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전남_lv2', 2, 5, 1083, '전남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전남_lv3', 3, 10, 1084, '전남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전남_lv4', 4, 15, 1085, '전남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_전남_lv5', 5, 20, NULL, '전남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경북_lv1', 1, 1, 1087, '경북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경북_lv2', 2, 5, 1088, '경북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경북_lv3', 3, 10, 1089, '경북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경북_lv4', 4, 15, 1090, '경북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경북_lv5', 5, 20, NULL, '경북', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경남_lv1', 1, 1, 1092, '경남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경남_lv2', 2, 5, 1093, '경남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경남_lv3', 3, 10, 1094, '경남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경남_lv4', 4, 15, 1095, '경남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_경남_lv5', 5, 20, NULL, '경남', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_제주_lv1', 1, 1, 1097, '제주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_제주_lv2', 2, 5, 1098, '제주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_제주_lv3', 3, 10, 1099, '제주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_제주_lv4', 4, 15, 1100, '제주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, region_sido, active_status, created_at) VALUES ( 5, NULL, 'region_제주_lv5', 5, 20, NULL, '제주', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_돈코츠_lv1', 1, 1, 1102, '돈코츠', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_돈코츠_lv2', 2, 5, 1103, '돈코츠', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_돈코츠_lv3', 3, 10, 1104, '돈코츠', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_돈코츠_lv4', 4, 15, 1105, '돈코츠', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_돈코츠_lv5', 5, 20, NULL, '돈코츠', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_토리파이탄_lv1', 1, 1, 1107, '토리파이탄', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_토리파이탄_lv2', 2, 5, 1108, '토리파이탄', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_토리파이탄_lv3', 3, 10, 1109, '토리파이탄', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_토리파이탄_lv4', 4, 15, 1110, '토리파이탄', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_토리파이탄_lv5', 5, 20, NULL, '토리파이탄', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_해산물_lv1', 1, 1, 1112, '해산물', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_해산물_lv2', 2, 5, 1113, '해산물', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_해산물_lv3', 3, 10, 1114, '해산물', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_해산물_lv4', 4, 15, 1115, '해산물', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_해산물_lv5', 5, 20, NULL, '해산물', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_츠케멘_lv1', 1, 1, 1117, '츠케멘', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_츠케멘_lv2', 2, 5, 1118, '츠케멘', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_츠케멘_lv3', 3, 10, 1119, '츠케멘', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_츠케멘_lv4', 4, 15, 1120, '츠케멘', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_츠케멘_lv5', 5, 20, NULL, '츠케멘', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_마제소바/아부라소바_lv1', 1, 1, 1122, '마제소바/아부라소바', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_마제소바/아부라소바_lv2', 2, 5, 1123, '마제소바/아부라소바', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_마제소바/아부라소바_lv3', 3, 10, 1124, '마제소바/아부라소바', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_마제소바/아부라소바_lv4', 4, 15, 1125, '마제소바/아부라소바', 'ACTIVE', '2025-06-23 07:20:42');
-INSERT INTO tbl_badge (badge_category_id, badge_image_url, badge_name, badge_level, completion_value, next_badge_id, ramen_category, active_status, created_at) VALUES ( 6, NULL, 'ramen_마제소바/아부라소바_lv5', 5, 20, NULL, '마제소바/아부라소바', 'ACTIVE', '2025-06-23 07:20:42');
+INSERT INTO tbl_badge (  
+    badge_id, badge_category_id, badge_image_url, badge_name, badge_level,  
+    completion_value, next_badge_id, event_start_at, event_end_at,  
+    active_status, created_at, updated_at, store_sido_legal_code, ramen_category_id  
+) VALUES  
+-- 시/도별 5레벨씩  
+(1, 5, NULL, 'level1', 1, 1, 2, NULL, NULL, 1, NOW(), NULL, 11, NULL),  
+(2, 5, NULL, 'level2', 2, 3, 3, NULL, NULL, 1, NOW(), NULL, 11, NULL),  
+(3, 5, NULL, 'level3', 3, 5, 4, NULL, NULL, 1, NOW(), NULL, 11, NULL),  
+(4, 5, NULL, 'level4', 4, 7, 5, NULL, NULL, 1, NOW(), NULL, 11, NULL),  
+(5, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 11, NULL),  
+(6, 5, NULL, 'level1', 1, 1, 7, NULL, NULL, 1, NOW(), NULL, 26, NULL),  
+(7, 5, NULL, 'level2', 2, 3, 8, NULL, NULL, 1, NOW(), NULL, 26, NULL),  
+(8, 5, NULL, 'level3', 3, 5, 9, NULL, NULL, 1, NOW(), NULL, 26, NULL),  
+(9, 5, NULL, 'level4', 4, 7, 10, NULL, NULL, 1, NOW(), NULL, 26, NULL),  
+(10, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 26, NULL),  
+(11, 5, NULL, 'level1', 1, 1, 12, NULL, NULL, 1, NOW(), NULL, 27, NULL),  
+(12, 5, NULL, 'level2', 2, 3, 13, NULL, NULL, 1, NOW(), NULL, 27, NULL),  
+(13, 5, NULL, 'level3', 3, 5, 14, NULL, NULL, 1, NOW(), NULL, 27, NULL),  
+(14, 5, NULL, 'level4', 4, 7, 15, NULL, NULL, 1, NOW(), NULL, 27, NULL),  
+(15, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 27, NULL),  
+(16, 5, NULL, 'level1', 1, 1, 17, NULL, NULL, 1, NOW(), NULL, 28, NULL),  
+(17, 5, NULL, 'level2', 2, 3, 18, NULL, NULL, 1, NOW(), NULL, 28, NULL),  
+(18, 5, NULL, 'level3', 3, 5, 19, NULL, NULL, 1, NOW(), NULL, 28, NULL),  
+(19, 5, NULL, 'level4', 4, 7, 20, NULL, NULL, 1, NOW(), NULL, 28, NULL),  
+(20, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 28, NULL),  
+(21, 5, NULL, 'level1', 1, 1, 22, NULL, NULL, 1, NOW(), NULL, 29, NULL),  
+(22, 5, NULL, 'level2', 2, 3, 23, NULL, NULL, 1, NOW(), NULL, 29, NULL),  
+(23, 5, NULL, 'level3', 3, 5, 24, NULL, NULL, 1, NOW(), NULL, 29, NULL),  
+(24, 5, NULL, 'level4', 4, 7, 25, NULL, NULL, 1, NOW(), NULL, 29, NULL),  
+(25, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 29, NULL),  
+(26, 5, NULL, 'level1', 1, 1, 27, NULL, NULL, 1, NOW(), NULL, 30, NULL),  
+(27, 5, NULL, 'level2', 2, 3, 28, NULL, NULL, 1, NOW(), NULL, 30, NULL),  
+(28, 5, NULL, 'level3', 3, 5, 29, NULL, NULL, 1, NOW(), NULL, 30, NULL),  
+(29, 5, NULL, 'level4', 4, 7, 30, NULL, NULL, 1, NOW(), NULL, 30, NULL),  
+(30, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 30, NULL),  
+(31, 5, NULL, 'level1', 1, 1, 32, NULL, NULL, 1, NOW(), NULL, 31, NULL),  
+(32, 5, NULL, 'level2', 2, 3, 33, NULL, NULL, 1, NOW(), NULL, 31, NULL),  
+(33, 5, NULL, 'level3', 3, 5, 34, NULL, NULL, 1, NOW(), NULL, 31, NULL),  
+(34, 5, NULL, 'level4', 4, 7, 35, NULL, NULL, 1, NOW(), NULL, 31, NULL),  
+(35, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 31, NULL),  
+(36, 5, NULL, 'level1', 1, 1, 37, NULL, NULL, 1, NOW(), NULL, 36, NULL),  
+(37, 5, NULL, 'level2', 2, 3, 38, NULL, NULL, 1, NOW(), NULL, 36, NULL),  
+(38, 5, NULL, 'level3', 3, 5, 39, NULL, NULL, 1, NOW(), NULL, 36, NULL),  
+(39, 5, NULL, 'level4', 4, 7, 40, NULL, NULL, 1, NOW(), NULL, 36, NULL),  
+(40, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 36, NULL),  
+(41, 5, NULL, 'level1', 1, 1, 42, NULL, NULL, 1, NOW(), NULL, 41, NULL),  
+(42, 5, NULL, 'level2', 2, 3, 43, NULL, NULL, 1, NOW(), NULL, 41, NULL),  
+(43, 5, NULL, 'level3', 3, 5, 44, NULL, NULL, 1, NOW(), NULL, 41, NULL),  
+(44, 5, NULL, 'level4', 4, 7, 45, NULL, NULL, 1, NOW(), NULL, 41, NULL),  
+(45, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 41, NULL),  
+(46, 5, NULL, 'level1', 1, 1, 47, NULL, NULL, 1, NOW(), NULL, 42, NULL),  
+(47, 5, NULL, 'level2', 2, 3, 48, NULL, NULL, 1, NOW(), NULL, 42, NULL),  
+(48, 5, NULL, 'level3', 3, 5, 49, NULL, NULL, 1, NOW(), NULL, 42, NULL),  
+(49, 5, NULL, 'level4', 4, 7, 50, NULL, NULL, 1, NOW(), NULL, 42, NULL),  
+(50, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 42, NULL),  
+(51, 5, NULL, 'level1', 1, 1, 52, NULL, NULL, 1, NOW(), NULL, 43, NULL),  
+(52, 5, NULL, 'level2', 2, 3, 53, NULL, NULL, 1, NOW(), NULL, 43, NULL),  
+(53, 5, NULL, 'level3', 3, 5, 54, NULL, NULL, 1, NOW(), NULL, 43, NULL),  
+(54, 5, NULL, 'level4', 4, 7, 55, NULL, NULL, 1, NOW(), NULL, 43, NULL),  
+(55, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 43, NULL),  
+(56, 5, NULL, 'level1', 1, 1, 57, NULL, NULL, 1, NOW(), NULL, 44, NULL),  
+(57, 5, NULL, 'level2', 2, 3, 58, NULL, NULL, 1, NOW(), NULL, 44, NULL),  
+(58, 5, NULL, 'level3', 3, 5, 59, NULL, NULL, 1, NOW(), NULL, 44, NULL),  
+(59, 5, NULL, 'level4', 4, 7, 60, NULL, NULL, 1, NOW(), NULL, 44, NULL),  
+(60, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 44, NULL),  
+(61, 5, NULL, 'level1', 1, 1, 62, NULL, NULL, 1, NOW(), NULL, 45, NULL),  
+(62, 5, NULL, 'level2', 2, 3, 63, NULL, NULL, 1, NOW(), NULL, 45, NULL),  
+(63, 5, NULL, 'level3', 3, 5, 64, NULL, NULL, 1, NOW(), NULL, 45, NULL),  
+(64, 5, NULL, 'level4', 4, 7, 65, NULL, NULL, 1, NOW(), NULL, 45, NULL),  
+(65, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 45, NULL),  
+(66, 5, NULL, 'level1', 1, 1, 67, NULL, NULL, 1, NOW(), NULL, 46, NULL),  
+(67, 5, NULL, 'level2', 2, 3, 68, NULL, NULL, 1, NOW(), NULL, 46, NULL),  
+(68, 5, NULL, 'level3', 3, 5, 69, NULL, NULL, 1, NOW(), NULL, 46, NULL),  
+(69, 5, NULL, 'level4', 4, 7, 70, NULL, NULL, 1, NOW(), NULL, 46, NULL),  
+(70, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 46, NULL),  
+(71, 5, NULL, 'level1', 1, 1, 72, NULL, NULL, 1, NOW(), NULL, 47, NULL),  
+(72, 5, NULL, 'level2', 2, 3, 73, NULL, NULL, 1, NOW(), NULL, 47, NULL),  
+(73, 5, NULL, 'level3', 3, 5, 74, NULL, NULL, 1, NOW(), NULL, 47, NULL),  
+(74, 5, NULL, 'level4', 4, 7, 75, NULL, NULL, 1, NOW(), NULL, 47, NULL),  
+(75, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 47, NULL),  
+(76, 5, NULL, 'level1', 1, 1, 77, NULL, NULL, 1, NOW(), NULL, 48, NULL),  
+(77, 5, NULL, 'level2', 2, 3, 78, NULL, NULL, 1, NOW(), NULL, 48, NULL),  
+(78, 5, NULL, 'level3', 3, 5, 79, NULL, NULL, 1, NOW(), NULL, 48, NULL),  
+(79, 5, NULL, 'level4', 4, 7, 80, NULL, NULL, 1, NOW(), NULL, 48, NULL),  
+(80, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 48, NULL),  
+(81, 5, NULL, 'level1', 1, 1, 82, NULL, NULL, 1, NOW(), NULL, 50, NULL),  
+(82, 5, NULL, 'level2', 2, 3, 83, NULL, NULL, 1, NOW(), NULL, 50, NULL),  
+(83, 5, NULL, 'level3', 3, 5, 84, NULL, NULL, 1, NOW(), NULL, 50, NULL),  
+(84, 5, NULL, 'level4', 4, 7, 85, NULL, NULL, 1, NOW(), NULL, 50, NULL),  
+(85, 5, NULL, 'level5', 5, 9, NULL, NULL, NULL, 1, NOW(), NULL, 50, NULL);
 ```

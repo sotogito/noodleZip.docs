@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/배지/4/completion_value의 의미.md",
+                "file": "예외처리/BindingResult.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "completion_value의 의미"
+              "title": "BindingResult"
             }
           }
         ]
@@ -171,8 +171,13 @@
   },
   "active": "e054f65e7139f1f2",
   "lastOpenFiles": [
-    "법정 코드에 따른 지역.md",
+    "예외처리/referer.md",
+    "예외처리/BindingResult.md",
+    "마이페이지/배지/4/초기 세팅을 하는 factory.md",
+    "예외처리",
+    "마이페이지/배지/4/카테고리에 따른 점수 및 누적값 업데이트.md",
     "마이페이지/배지/4/completion_value의 의미.md",
+    "법정 코드에 따른 지역.md",
     "참고자료.md",
     "프론트 템플릿 자료조사.md",
     "README.md",
@@ -195,17 +200,12 @@
     "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
     "마이페이지/배지/3/+/이벤트에 따른 발동 배지 카테고리 테이블 정의.md",
     "마이페이지/배지/3/+",
-    "마이페이지/배지/전략패턴.md",
-    "마이페이지/배지/참고자료.md",
-    "마이페이지/배지/2/그룹.md",
-    "마이페이지/배지/2/카테고리.md",
     "마이페이지/배지/3",
     "마이페이지/배지/레거시/INSERT",
     "마이페이지/배지/레거시",
     "마이페이지/저장 가게/FE",
     "마이페이지/저장 가게",
     "마이페이지/배지/FE",
-    "0. CONVENTION",
-    "깃허브 슬랙 연동"
+    "0. CONVENTION"
   ]
 }

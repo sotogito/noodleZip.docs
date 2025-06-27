@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
+                "file": "마이페이지/배지/레거시/INSERT/카테고리INSERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "배지 로직과 마이페이지 배지 로직"
+              "title": "카테고리INSERT"
             }
           }
         ],
@@ -186,8 +186,9 @@
   },
   "active": "6c3053cdcde57799",
   "lastOpenFiles": [
-    "TODO.md",
+    "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
     "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
+    "TODO.md",
     "환경변수.md",
     "README.md",
     "마이페이지/배지/복합 인댁스.md",
@@ -211,7 +212,6 @@
     "마이페이지/배지/레거시/그룹별 배지.md",
     "마이페이지/배지/레거시/그룹.md",
     "예외처리/BindingResult.md",
-    "예외처리/referer.md",
     "예외처리",
     "마이페이지/배지/4",
     "마이페이지/배지/3/+",

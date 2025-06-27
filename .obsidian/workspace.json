@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b105b2a5e3dbeee3",
+        "id": "f392b3450cbb247f",
         "type": "tabs",
         "children": [
           {
-            "id": "e054f65e7139f1f2",
+            "id": "dd9d84072adef7b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "마이페이지/배지/사용자의 가장 높은 레벨의 라멘 카테고리 레벨 배지 조회.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "6c3053cdcde57799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "사용자INSERT"
-            }
-          },
-          {
-            "id": "ef314e97e4c8bfec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "사용자의 가장 높은 레벨의 라멘 카테고리 레벨 배지 조회"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -189,52 +160,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef314e97e4c8bfec",
+  "active": "dd9d84072adef7b4",
   "lastOpenFiles": [
-    "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
-    "Untitled.md",
-    "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
-    "마이페이지/배지/레거시/INSERT/배지INSERT.md",
-    "마이페이지/배지/모듈화.md",
-    "마이페이지/어떤 유저.md",
-    "마이페이지/배지/Process의 분리.md",
-    "마이페이지/배지/만약 새로운 배지 레벨이 추가된다면.md",
-    "마이페이지/배지/TODO.md",
-    "마이페이지/배지/레거시/INSERT/카테고리INSERT.md",
-    "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
-    "TODO.md",
+    "마이페이지/배지/jqpl을 QueryDSL로.md",
+    "마이페이지/배지/사용자의 가장 높은 레벨의 라멘 카테고리 레벨 배지 조회.md",
+    "무제",
     "환경변수.md",
+    "Untitled.md",
     "README.md",
-    "마이페이지/배지/복합 인댁스.md",
-    "마이페이지/배지/4/배지 전략 컬럼 추가.md",
-    "마이페이지/배지/4/카테고리에 따른 점수 및 누적값 업데이트.md",
-    "마이페이지/배지/4/completion_value의 의미.md",
-    "마이페이지/배지/4/정책.md",
-    "마이페이지/배지/4/배지 카테고리 초기 생성과 배지 추가 생성.md",
-    "마이페이지/배지/3/로직3 - 분리하기.md",
-    "마이페이지/배지/3/상세3.md",
-    "마이페이지/배지/2/db 예시.md",
-    "마이페이지/배지/2/카테고리.md",
-    "마이페이지/배지/2/로직 - 카테고리별.md",
-    "마이페이지/배지/2/그룹.md",
+    "TODO.md",
+    "마이페이지/배지/FE/배지 사용할만한 템플릿 모음.md",
+    "예외처리/referer.md",
+    "예외처리/BindingResult.md",
     "예외처리",
+    "법정 코드에 따른 지역.md",
+    "마이페이지/어떤 유저.md",
+    "마이페이지/배지/복합 인댁스.md",
+    "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
+    "마이페이지/배지/모듈화.md",
+    "마이페이지/배지/만약 새로운 배지 레벨이 추가된다면.md",
+    "마이페이지/배지/레거시/INSERT/카테고리INSERT.md",
+    "마이페이지/배지/레거시/INSERT/사용자배지INSERT.md",
+    "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
+    "마이페이지/배지/레거시/INSERT/배지INSERT.md",
+    "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
+    "마이페이지/배지/레거시/카테고리별 배지 - 단계형.md",
+    "마이페이지/배지/레거시/카테고리.md",
+    "마이페이지/배지/레거시/지역 및 라멘 카테고리.md",
+    "마이페이지/배지/레거시/그룹별 배지.md",
+    "마이페이지/배지/레거시/그룹.md",
+    "마이페이지/배지/레거시/INSERT",
+    "마이페이지/배지/레거시",
+    "마이페이지/배지/TODO.md",
     "마이페이지/배지/4",
     "마이페이지/배지/3/+",
     "마이페이지/배지/3",
-    "마이페이지/배지/레거시/INSERT",
-    "마이페이지/배지/레거시",
     "마이페이지/저장 가게/FE",
     "마이페이지/저장 가게",
-    "마이페이지/배지/FE",
-    "0. CONVENTION"
+    "마이페이지/배지/FE"
   ]
 }

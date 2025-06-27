@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/배지/레거시/INSERT/배지INSERT.md",
+                "file": "마이페이지/배지/만약 새로운 배지 레벨이 추가된다면.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "배지INSERT"
+              "title": "만약 새로운 배지 레벨이 추가된다면"
             }
           }
         ],
@@ -184,8 +184,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d27587f947658b5",
+  "active": "6c3053cdcde57799",
   "lastOpenFiles": [
+    "마이페이지/배지/TODO.md",
+    "마이페이지/배지/만약 새로운 배지 레벨이 추가된다면.md",
+    "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
+    "마이페이지/배지/레거시/INSERT/배지INSERT.md",
     "마이페이지/배지/레거시/INSERT/카테고리INSERT.md",
     "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
     "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
@@ -208,10 +212,6 @@
     "마이페이지/배지/1/배지 상세.md",
     "마이페이지/배지/1/로직.md",
     "마이페이지/배지/레거시/카테고리별 배지 - 단계형.md",
-    "마이페이지/배지/레거시/지역 및 라멘 카테고리.md",
-    "마이페이지/배지/레거시/카테고리.md",
-    "마이페이지/배지/레거시/그룹별 배지.md",
-    "마이페이지/배지/레거시/그룹.md",
     "예외처리",
     "마이페이지/배지/4",
     "마이페이지/배지/3/+",

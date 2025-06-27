@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/어떤 유저.md",
+                "file": "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "어떤 유저"
+              "title": "사용자INSERT"
+            }
+          },
+          {
+            "id": "ef314e97e4c8bfec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,16 +198,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c3053cdcde57799",
+  "active": "ef314e97e4c8bfec",
   "lastOpenFiles": [
-    "마이페이지/배지/Process의 분리.md",
+    "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
+    "Untitled.md",
+    "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
+    "마이페이지/배지/레거시/INSERT/배지INSERT.md",
+    "마이페이지/배지/모듈화.md",
     "마이페이지/어떤 유저.md",
+    "마이페이지/배지/Process의 분리.md",
     "마이페이지/배지/만약 새로운 배지 레벨이 추가된다면.md",
     "마이페이지/배지/TODO.md",
-    "마이페이지/배지/레거시/INSERT/사용자INSERT.md",
-    "마이페이지/배지/레거시/INSERT/배지INSERT.md",
     "마이페이지/배지/레거시/INSERT/카테고리INSERT.md",
-    "마이페이지/배지/레거시/INSERT/그룹INSERT.md",
     "마이페이지/배지/배지 로직과 마이페이지 배지 로직.md",
     "TODO.md",
     "환경변수.md",
@@ -210,8 +226,6 @@
     "마이페이지/배지/2/카테고리.md",
     "마이페이지/배지/2/로직 - 카테고리별.md",
     "마이페이지/배지/2/그룹.md",
-    "마이페이지/배지/1/ERD.md",
-    "마이페이지/배지/1/배지 상세.md",
     "예외처리",
     "마이페이지/배지/4",
     "마이페이지/배지/3/+",

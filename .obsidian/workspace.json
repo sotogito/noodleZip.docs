@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "예외처리/컨트롤러 BindingResult 예외 처리.md",
+                "file": "예외처리/배지 즐겨찾기 추가할때 예외처리는 어떻게하지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "컨트롤러 BindingResult 예외 처리"
+              "title": "배지 즐겨찾기 추가할때 예외처리는 어떻게하지"
             }
           }
         ],
@@ -186,9 +186,9 @@
   },
   "active": "25fd43760c8f2be4",
   "lastOpenFiles": [
+    "예외처리/컨트롤러 BindingResult 예외 처리.md",
     "예외처리/서비스 예외처리, 컨트롤러 예외처리.md",
     "예외처리/배지 즐겨찾기 추가할때 예외처리는 어떻게하지.md",
-    "예외처리/컨트롤러 BindingResult 예외 처리.md",
     "예외처리/서비스 HTTP 예외 처리.md",
     "Transactional.md",
     "무제",

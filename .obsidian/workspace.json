@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "테스트/배지 테스트 sql문.md",
+                "file": "마이페이지/배지/복합 인댁스.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "배지 테스트 sql문"
+              "title": "복합 인댁스"
             }
           }
         ],
@@ -186,10 +186,10 @@
   },
   "active": "25fd43760c8f2be4",
   "lastOpenFiles": [
+    "환경변수.md",
+    "테스트/배지 테스트 sql문.md",
     "마이페이지/배지/더미/INSERT/그룹INSERT.md",
     "테스트",
-    "테스트/배지 테스트 sql문.md",
-    "환경변수.md",
     "Transactional.md",
     "예외처리/배지 즐겨찾기 추가할때 예외처리는 어떻게하지.md",
     "예외처리/컨트롤러 BindingResult 예외 처리.md",

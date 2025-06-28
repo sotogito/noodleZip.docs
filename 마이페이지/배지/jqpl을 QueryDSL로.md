@@ -83,3 +83,45 @@ public Optional<Badge> findInitRamenCategoryLevelBadge(Long badgeCategoryId, int
     );  
 }
 ```
+
+#### UserBadge
+```
+//    @Query("""  
+//            select ub  
+//            from UserBadge ub  
+//            join fetch ub.badge b  
+//            where ub.userId = :userId  
+//            and b.badgeCategory.id = :badgeCategoryId  
+//            order by b.badgePolicy.badgeLevel desc  
+//            """)  
+//    List<UserBadge> findByUserIdAndBadgeCategoryIdWithBadge(  
+//            long userId,  
+//            long badgeCategoryId,  
+//            Pageable pageable  
+//    );
+```
+
+```java
+@Override  
+public Optional<UserBadge> findUserLevelBadge(long userId, long badgeCategoryId) {  
+    QUserBadge userBadge = QUserBadge.userBadge;  
+    QBadge badge = QBadge.badge;  
+  
+    return Optional.ofNullable(  
+            queryFactory  
+                    .selectFrom(userBadge)  
+                    .join(userBadge.badge, badge).fetchJoin()  
+                    .where(  
+                            userBadge.userId.eq(userId),  
+                            badge.badgeCategory.id.eq(badgeCategoryId)  
+                    )  
+                    .orderBy(badge.badgePolicy.badgeLevel.desc())  
+                    .limit(1)  
+                    .fetchOne()  
+    );  
+}
+```
+ QBadge badge = QBadge.badge; 는 처음에 userbadge가 참조하고 있는 badge를 가져오는 것이라 생각하여   QBadge badge = userBadge.badge; 로 작성했다가 root path가 아니라는 오류를 받았다  
+ QueryDSL의 조인 문법은 항상 Q타입이 필요하기 때문에 선언해줘야한다.  
+ `.join(userBadge.badge, badge)` 그래섲 조인을 할때로 다음과 같이 선언한다  
+ 

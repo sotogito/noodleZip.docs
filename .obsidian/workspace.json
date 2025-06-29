@@ -6,7 +6,6 @@
       {
         "id": "f392b3450cbb247f",
         "type": "tabs",
-        "dimension": 47.08029197080292,
         "children": [
           {
             "id": "dd9d84072adef7b4",
@@ -14,51 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지/배지/jqpl을 QueryDSL로.md",
+                "file": "배지/리뷰 대상 조건 강화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jqpl을 QueryDSL로"
+              "title": "리뷰 대상 조건 강화"
             }
           },
           {
-            "id": "25fd43760c8f2be4",
+            "id": "0f7062184a4edc61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "배지/3/상세3.md",
+                "file": "😼 깃.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "상세3"
+              "title": "😼 깃"
             }
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "d6c0f6489285677f",
-        "type": "tabs",
-        "dimension": 52.919708029197075,
-        "children": [
-          {
-            "id": "89b936ee86c0e60e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "배지/더미/최종.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "최종"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -206,38 +184,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89b936ee86c0e60e",
+  "active": "0f7062184a4edc61",
   "lastOpenFiles": [
-    "배지/더미/INSERT/배지INSERT.md",
+    "배지/리뷰 대상 조건 강화.md",
+    "😼 깃.md",
     "배지/더미/최종.md",
+    "배지/FE/배지 페이지.md",
+    "테스트/배지 테스트 sql문.md",
     "배지/3/상세3.md",
+    "배지/3/로직3 - 분리하기.md",
+    "배지/FE/html.md",
+    "배지/FE/배지 사용할만한 템플릿 모음.md",
+    "배지/배지 로직과 마이페이지 배지 로직.md",
+    "배지/만약 새로운 배지 레벨이 추가된다면.md",
+    "배지/모듈화.md",
+    "배지/⭐️ 복합 인댁스.md",
+    "배지/사용자의 가장 높은 레벨의 라멘 카테고리 레벨 배지 조회.md",
+    "배지/참고자료.md",
+    "배지/전략패턴.md",
+    "배지/jqpl을 QueryDSL로.md",
+    "배지/FE/클라이언트.md",
+    "마이페이지/마이페이지 배지/배지 기능.md",
     "환경변수.md",
+    "배지/더미/INSERT/배지INSERT.md",
     "배지/더미/INSERT/카테고리INSERT.md",
     "배지/더미/INSERT/그룹INSERT.md",
     "README.md",
     "TODO.md",
     "Transactional.md",
-    "Untitled.md",
-    "테스트/배지 테스트 sql문.md",
-    "마이페이지/마이페이지 배지/배지.md",
     "마이페이지/마이페이지 배지",
     "마이페이지/배지/ㅁ",
-    "배지/⭐️ 복합 인댁스.md",
     "테스트",
-    "예외처리/배지 즐겨찾기 추가할때 예외처리는 어떻게하지.md",
-    "예외처리/컨트롤러 BindingResult 예외 처리.md",
-    "예외처리/서비스 예외처리, 컨트롤러 예외처리.md",
-    "예외처리/서비스 HTTP 예외 처리.md",
-    "배지/jqpl을 QueryDSL로.md",
-    "배지/사용자의 가장 높은 레벨의 라멘 카테고리 레벨 배지 조회.md",
-    "배지/FE/배지 사용할만한 템플릿 모음.md",
-    "예외처리/referer.md",
-    "예외처리/BindingResult.md",
     "예외처리",
-    "법정 코드에 따른 지역.md",
-    "마이페이지/어떤 유저.md",
-    "배지/배지 로직과 마이페이지 배지 로직.md",
-    "배지/모듈화.md",
     "배지/더미/INSERT",
     "배지/더미",
     "배지/4",

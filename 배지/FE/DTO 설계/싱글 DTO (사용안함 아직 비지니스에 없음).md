@@ -1,0 +1,7 @@
+- badge_group_id
+- badge_category_id
+- badge_id
+- badge_image_url
+---
+- badge_category_name
+- accumulative_value

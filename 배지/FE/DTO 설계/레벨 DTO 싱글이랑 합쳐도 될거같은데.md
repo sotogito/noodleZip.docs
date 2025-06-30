@@ -1,0 +1,8 @@
+- badge_group_id
+- badge_category_id
+- badge_id
+- badge_image_url
+---
+- badge_category_name : 두거운데
+- badge_name : 얇은데 있으면 띄움
+- accumulative_value

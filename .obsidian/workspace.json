@@ -6,6 +6,7 @@
       {
         "id": "f392b3450cbb247f",
         "type": "tabs",
+        "dimension": 63.1979695431472,
         "children": [
           {
             "id": "dd9d84072adef7b4",
@@ -14,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "배지/더미/최종.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,12 +36,12 @@
               "title": "배지에 따른 출력"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "c0b3ed52dbcc748a",
         "type": "tabs",
+        "dimension": 36.80203045685279,
         "children": [
           {
             "id": "df867b1808d3d722",
@@ -204,16 +205,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df867b1808d3d722",
+  "active": "dd9d84072adef7b4",
   "lastOpenFiles": [
-    "배지/FE/배지에 따른 출력.md",
     "배지/5/배지 그룹에 대해서 다시 생각하기.md",
+    "배지/더미/최종.md",
+    "배지/FE/배지에 따른 출력.md",
     "배지/FE/DTO 설계/옵션 레벨 DTO.md",
     "배지/FE/DTO 설계/레벨 DTO 싱글이랑 합쳐도 될거같은데.md",
     "배지/FE/DTO 설계/싱글 DTO (사용안함 아직 비지니스에 없음).md",
     "배지/FE/배지 사용할만한 템플릿 모음.md",
     "배지/5",
-    "배지/더미/최종.md",
     "배지/FE/옵션 레벨 배지 동적 쿼리.md",
     "배지/FE/DTO.md",
     "배지/FE/DTO 설계",

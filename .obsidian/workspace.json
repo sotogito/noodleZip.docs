@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "domain/가게저장/저장 가게 도메인의 분리.md",
+                "file": "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "저장 가게 도메인의 분리"
+              "title": "저장 가게 도메인의 분리- savedstore"
             }
           }
         ],
@@ -187,7 +187,7 @@
   "active": "6db7ed73bfa508ef",
   "lastOpenFiles": [
     "domain/배지/더미/최종.md",
-    "domain/가게저장/저장 가게 도메인의 분리.md",
+    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
     "domain",
     "domain/가게저장",
     "domain/배지/⭐️ 복합 인댁스.md",

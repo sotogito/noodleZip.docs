@@ -59,26 +59,4 @@ public class MySavedStoreController {
 }
 ```
 마이페이지에서 한번 url을 분리했다면 그 뒤로도 분리하는게 맞다. 만약 사용자가 {userId}경로로 들어가서 다름사람이 보는 마이페이즐ㄹ 조회하는데 저장가게를 누르니까 수정이 가능한 상태가 되는게 더 이상한거같다.
-
-
-
-### 1️⃣ URL을 "책임"에 맞게 분리
-
-- 내 마이페이지
-    
-    swift
-    
-    복사편집
-    
-    `/mypage/my /mypage/my/saved-store /mypage/my/saved-store/edit`
-    
-- 다른 사람 마이페이지
-    
-    bash
-    
-    복사편집
-    
-    `/mypage/{userId} /mypage/{userId}/saved-store`
-    
-
-이렇게 하면 **URL만 봐도 누구의 페이지인지, 뭘 하려는 건지 명확**함.
+배지같은 경우도 {userId}로 처리했는데 (일단 조회만있어서) 나중에 즐겨찾기나 배지 숨기기같은 기능이 추가되기 위해서는 url은 분리하는게 맞느너같다.

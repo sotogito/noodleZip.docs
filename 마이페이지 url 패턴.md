@@ -32,3 +32,53 @@ public String savedStoreList(@AuthenticationPrincipal MyUserDetails userDetails,
 ```
 가게 저장 목록을 확인하는 사용자경로는 마이페이지를 꼭 저쳐야하는데,
 내가 내 페이지를 조회했을때랑 다른사람이 조회했을때랑 userId를 연결해줘서 공용적으로 사용하면 된다.
+
+
+그럼 나의 가게저장같은 경우는 사용자가 본인의 가게저장페이지에 들어와야만 수정이 가능하게 처리해야되잖아 그럼url을 {userId}로 공통으로 넣고 처리를 해야할까? 가게 저장을 보는 사용자 경로는무조건 마이페이지를 거쳐가야돼 그럼 마이페이지도 정대적인 ㄱㅇ로로 분리해놨으면 저장가게도 정대적인 경로ㅗㄹ 분리해두는게 맞을까?
+
+```java
+@Slf4j  
+@RequiredArgsConstructor  
+@RequestMapping("/mypage")  
+@Controller  
+public class MySavedStoreController {  
+  
+    @GetMapping("/my/saved-store/list") /// 사용자가 본인의 마이페이지에 접근해야만 들어올 수 있음  
+    public String mySavedStoreList(@AuthenticationPrincipal MyUserDetails userDetails, Model model) {  
+  
+        model.addAttribute("isOwner", true);  
+        return "index";  
+    }  
+  
+    @GetMapping("/{userId}/saved-store/list")  
+    public String savedStoreList(@AuthenticationPrincipal MyUserDetails userDetails, Model model) {  
+  
+        model.addAttribute("isOwner", false);  
+        return "index";  
+    }  
+}
+```
+마이페이지에서 한번 url을 분리했다면 그 뒤로도 분리하는게 맞다. 만약 사용자가 {userId}경로로 들어가서 다름사람이 보는 마이페이즐ㄹ 조회하는데 저장가게를 누르니까 수정이 가능한 상태가 되는게 더 이상한거같다.
+
+
+
+### 1️⃣ URL을 "책임"에 맞게 분리
+
+- 내 마이페이지
+    
+    swift
+    
+    복사편집
+    
+    `/mypage/my /mypage/my/saved-store /mypage/my/saved-store/edit`
+    
+- 다른 사람 마이페이지
+    
+    bash
+    
+    복사편집
+    
+    `/mypage/{userId} /mypage/{userId}/saved-store`
+    
+
+이렇게 하면 **URL만 봐도 누구의 페이지인지, 뭘 하려는 건지 명확**함.

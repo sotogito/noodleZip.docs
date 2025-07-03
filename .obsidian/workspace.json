@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 api 위치.md",
+                "file": "domain/가게저장/저장 가게 기능.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "도메인 api 위치"
+              "title": "저장 가게 기능"
             }
           }
         ],
@@ -201,12 +201,13 @@
   "active": "2006240aa23ee837",
   "lastOpenFiles": [
     "domain/가게저장/서비스.md",
+    "domain/가게저장/저장 가게 프론트.md",
+    "domain/가게저장/가게 저장 삭제.md",
+    "domain/가게저장/카테고리 기능.md",
+    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
+    "domain/가게저장/저장 가게 기능.md",
     "도메인 api 위치.md",
     "domain/가게저장/컨트롤러.md",
-    "domain/가게저장/카테고리 기능.md",
-    "domain/가게저장/저장 가게 프론트.md",
-    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
-    "domain/가게저장/가게 저장 삭제.md",
     "domain/배지/더미/최종.md",
     "domain",
     "domain/가게저장",
@@ -227,7 +228,6 @@
     "환경변수.md",
     "Transactional.md",
     "Untitled 1.md",
-    "domain/배지/5/배지 그룹에 대해서 다시 생각하기.md",
     "domain/배지/5",
     "domain/배지/FE/DTO 설계",
     "domain/마이페이지/마이페이지 배지",

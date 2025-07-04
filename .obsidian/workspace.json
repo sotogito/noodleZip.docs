@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "domain/가게저장/프론트/html/전체 html.md",
+                "file": "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "전체 html"
+              "title": "네이버 맵 조회 가게 좌표 센터값"
             }
           }
         ],
@@ -214,8 +214,10 @@
   },
   "active": "408c5efc8245ca69",
   "lastOpenFiles": [
-    "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
+    "domain/가게저장/조회의 종류.md",
+    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
     "domain/가게저장/프론트/html/전체 html.md",
+    "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
     "domain/가게저장/프론트/html/저장가게 카테고리 검색 html.md",
     "domain/가게저장/프론트/html",
     "domain/가게저장/프론트/카테고리 처리 버튼.md",
@@ -242,8 +244,6 @@
     "domain/배지/FE/배지 사용할만한 템플릿 모음.md",
     "domain/배지/FE/배지 페이지.md",
     "domain/배지/FE/배지 html.md",
-    "domain/배지/FE/배지에 따른 출력.md",
-    "domain/배지/FE/옵션 레벨 배지 동적 쿼리.md",
     "domain/배지/5",
     "domain/배지/FE/DTO 설계",
     "domain/마이페이지/마이페이지 배지",

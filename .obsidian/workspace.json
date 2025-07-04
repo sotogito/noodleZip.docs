@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
+                "file": "domain/가게저장/프론트/html/전체 html.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "저장가게 카테고리 수정 html"
+              "title": "전체 html"
             }
           }
         ],
@@ -214,8 +214,9 @@
   },
   "active": "408c5efc8245ca69",
   "lastOpenFiles": [
-    "domain/가게저장/프론트/html/저장가게 카테고리 검색 html.md",
     "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
+    "domain/가게저장/프론트/html/전체 html.md",
+    "domain/가게저장/프론트/html/저장가게 카테고리 검색 html.md",
     "domain/가게저장/프론트/html",
     "domain/가게저장/프론트/카테고리 처리 버튼.md",
     "domain/가게저장/프론트/사용자 경험 플로우.md",
@@ -243,7 +244,6 @@
     "domain/배지/FE/배지 html.md",
     "domain/배지/FE/배지에 따른 출력.md",
     "domain/배지/FE/옵션 레벨 배지 동적 쿼리.md",
-    "domain/배지/FE/클라이언트.md",
     "domain/배지/5",
     "domain/배지/FE/DTO 설계",
     "domain/마이페이지/마이페이지 배지",

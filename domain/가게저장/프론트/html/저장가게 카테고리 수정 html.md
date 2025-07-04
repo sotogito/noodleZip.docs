@@ -25,6 +25,7 @@
                 </ul>
                 <div class="buttons">
                   <button id="update_categories" class="btn_1 full-width">수정하기</button>
+                  <button id="update_categories" class="btn_1 full-width">삭제하기</button>
                 </div>
               </div>
             </div>

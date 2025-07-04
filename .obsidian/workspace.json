@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "마이페이지 url 패턴.md",
+                "file": "domain/가게저장/유니크 제약조건.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "마이페이지 url 패턴"
+              "title": "유니크 제약조건"
             }
           }
         ],
@@ -214,15 +214,19 @@
   },
   "active": "408c5efc8245ca69",
   "lastOpenFiles": [
+    "domain/가게저장/프론트/사용자 경험 플로우.md",
+    "domain/가게저장/유니크 제약조건.md",
     "domain/가게저장/저장 가게 기능.md",
-    "마이페이지 url 패턴.md",
-    "domain/가게저장/서비스.md",
-    "domain/가게저장/저장 가게 프론트.md",
+    "domain/가게저장/프론트/카테고리 처리 버튼.md",
+    "domain/가게저장/컨트롤러.md",
     "domain/가게저장/가게 저장 삭제.md",
+    "domain/가게저장/저장 가게 프론트.md",
     "domain/가게저장/카테고리 기능.md",
     "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
+    "domain/가게저장/프론트",
+    "domain/가게저장/서비스.md",
+    "마이페이지 url 패턴.md",
     "도메인 api 위치.md",
-    "domain/가게저장/컨트롤러.md",
     "domain/배지/더미/최종.md",
     "domain",
     "domain/가게저장",
@@ -239,16 +243,12 @@
     "domain/배지/FE/클라이언트.md",
     "domain/배지/FE/DTO.md",
     "domain/배지/FE/html.md",
-    "domain/마이페이지/마이페이지 배지/옵션 배지 한번에 조회.md",
-    "환경변수.md",
-    "Transactional.md",
     "domain/배지/5",
     "domain/배지/FE/DTO 설계",
     "domain/마이페이지/마이페이지 배지",
     "마이페이지/배지/ㅁ",
     "테스트",
     "예외처리",
-    "domain/배지/더미/INSERT",
-    "domain/배지/더미"
+    "domain/배지/더미/INSERT"
   ]
 }

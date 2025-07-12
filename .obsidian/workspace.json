@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "domain/가게저장/지도.md",
+                "file": "domain/📎 url.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "지도"
+              "title": "📎 url"
             }
           }
         ],
@@ -87,7 +87,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -203,35 +203,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "408c5efc8245ca69",
   "lastOpenFiles": [
-    "domain/가게저장/가게저장 카테고리 수정 및 삭제 후 클라이언트 - 프론트 낙관적 업데이트, rollback.md",
-    "domain/가게저장/지도.md",
-    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
-    "domain/가게저장/프론트/사용자 경험 플로우.md",
-    "domain/가게저장/프론트/카테고리 처리 버튼.md",
-    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
-    "domain/가게저장/프론트/html/전체 html.md",
-    "domain/가게저장/📎 url과 의문.md",
-    "domain/가게저장/가게 저장 삭제.md",
+    "domain/가게저장/컨트롤러.md",
+    "domain/가게저장/카테고리 기능.md",
     "domain/가게저장/경배님 보여드릴 문서.md",
+    "domain/가게저장/가게저장 카테고리 수정 및 삭제 후 클라이언트 - 프론트 낙관적 업데이트, rollback.md",
     "domain/가게저장/서비스.md",
     "domain/가게저장/유니크 제약조건.md",
     "domain/가게저장/저장 가게 기능.md",
-    "domain/가게저장/저장 가게 프론트.md",
+    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
     "domain/가게저장/조회의 종류.md",
-    "domain/가게저장/카테고리 기능.md",
-    "domain/가게저장/컨트롤러.md",
+    "domain/가게저장/지도.md",
     "domain/📎 url.md",
+    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
+    "domain/가게저장/프론트/사용자 경험 플로우.md",
+    "domain/가게저장/프론트/카테고리 처리 버튼.md",
+    "domain/가게저장/프론트/html/전체 html.md",
+    "domain/가게저장/📎 url과 의문.md",
+    "domain/가게저장/가게 저장 삭제.md",
+    "domain/가게저장/저장 가게 프론트.md",
     "마이페이지 url 패턴.md",
     "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
     "domain/가게저장/프론트/html/저장가게 카테고리 검색 html.md",

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "domain/배지/의존성 낮추기.md",
+                "file": "domain/배지/더미/최종.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "의존성 낮추기"
+              "title": "최종"
             }
           }
         ],
@@ -214,8 +214,15 @@
   },
   "active": "408c5efc8245ca69",
   "lastOpenFiles": [
-    "domain/사용자 구독/기능.md",
+    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
+    "domain/가게저장/프론트/사용자 경험 플로우.md",
+    "domain/가게저장/프론트/카테고리 처리 버튼.md",
+    "domain/가게저장/📎 url과 의문.md",
+    "domain/가게저장/가게 저장 삭제.md",
+    "domain/가게저장/가게저장 카테고리 수정 및 삭제 후 클라이언트 - 프론트 낙관적 업데이트, rollback.md",
+    "domain/가게저장/경배님 보여드릴 문서.md",
     "domain/배지/의존성 낮추기.md",
+    "domain/사용자 구독/기능.md",
     "domain/사용자 구독/my 도메인 분리.md",
     "domain/배지/Untitled",
     "domain/사용자 구독/테이블 수정.md",
@@ -226,15 +233,8 @@
     "domain/가게저장/컨트롤러.md",
     "domain/가게저장/지도.md",
     "😼 깃.md",
-    "domain/가게저장/가게저장 카테고리 수정 및 삭제 후 클라이언트 - 프론트 낙관적 업데이트, rollback.md",
-    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
-    "domain/가게저장/프론트/사용자 경험 플로우.md",
-    "domain/가게저장/프론트/카테고리 처리 버튼.md",
     "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
     "domain/가게저장/프론트/html/전체 html.md",
-    "domain/가게저장/📎 url과 의문.md",
-    "domain/가게저장/가게 저장 삭제.md",
-    "domain/가게저장/경배님 보여드릴 문서.md",
     "domain/가게저장/서비스.md",
     "domain/가게저장/유니크 제약조건.md",
     "domain/가게저장/저장 가게 기능.md",

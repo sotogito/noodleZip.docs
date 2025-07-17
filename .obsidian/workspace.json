@@ -1,84 +1,41 @@
 {
   "main": {
-    "id": "fe76e847c77c3d79",
+    "id": "c2602e1654e7a108",
     "type": "split",
     "children": [
       {
-        "id": "c0b3ed52dbcc748a",
+        "id": "d0514b4668eba65b",
         "type": "tabs",
         "children": [
           {
-            "id": "df867b1808d3d722",
+            "id": "87d436bde53e5486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "배지/5/배지 그룹에 대해서 다시 생각하기.md",
+                "file": "domain/배지/더미/⭐️ 최종.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "배지 그룹에 대해서 다시 생각하기"
-            }
-          },
-          {
-            "id": "6db7ed73bfa508ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "domain/가게저장/서비스.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "서비스"
-            }
-          },
-          {
-            "id": "2006240aa23ee837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "domain/가게저장/저장 가게 기능.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "저장 가게 기능"
-            }
-          },
-          {
-            "id": "408c5efc8245ca69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "domain/배지/더미/최종.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "최종"
+              "title": "⭐️ 최종"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "26aa32c55b412f83",
+    "id": "77ec049276092306",
     "type": "split",
     "children": [
       {
-        "id": "b1b98ebda5207677",
+        "id": "bbe2ecb54fdb6dd6",
         "type": "tabs",
         "children": [
           {
-            "id": "7d27587f947658b5",
+            "id": "b3b483686adb23b8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,7 +48,7 @@
             }
           },
           {
-            "id": "714a9f520c55235f",
+            "id": "de20da0710958cfe",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -108,7 +65,7 @@
             }
           },
           {
-            "id": "fd04a88c064de4bd",
+            "id": "6f613dac89360895",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -124,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "8e6e758bc83f8ae5",
+    "id": "3f95d992ab3ff28c",
     "type": "split",
     "children": [
       {
-        "id": "942f0854d430b40f",
+        "id": "3bf6d85946714c49",
         "type": "tabs",
         "children": [
           {
-            "id": "3bdea5a44ba5fc01",
+            "id": "9276c93a744fbcec",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "서비스 기획/2025-06-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-06-10"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "686e7eae5d6aab88",
+            "id": "f3b437c31cb766c5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "서비스 기획/2025-06-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-06-10"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "327a857156f4118e",
+            "id": "4a4523c6349b206e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -180,18 +135,17 @@
             }
           },
           {
-            "id": "81770d9d74cf6cb0",
+            "id": "5b616ec54e4a8f3c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "서비스 기획/2025-06-10.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-06-10"
+              "title": "Outline"
             }
           }
         ]
@@ -212,44 +166,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "408c5efc8245ca69",
-  "lastOpenFiles": [
-    "domain/가게저장/프론트/네이버 맵 조회 가게 좌표 센터값.md",
-    "domain/가게저장/프론트/사용자 경험 플로우.md",
-    "domain/가게저장/프론트/카테고리 처리 버튼.md",
-    "domain/가게저장/📎 url과 의문.md",
-    "domain/가게저장/가게 저장 삭제.md",
-    "domain/가게저장/가게저장 카테고리 수정 및 삭제 후 클라이언트 - 프론트 낙관적 업데이트, rollback.md",
-    "domain/가게저장/경배님 보여드릴 문서.md",
-    "domain/배지/의존성 낮추기.md",
-    "domain/사용자 구독/기능.md",
-    "domain/사용자 구독/my 도메인 분리.md",
-    "domain/배지/Untitled",
-    "domain/사용자 구독/테이블 수정.md",
-    "domain/Untitled.canvas",
-    "domain/사용자 구독",
-    "domain/가게저장/수정사항.md",
-    "domain/가게저장/카테고리 기능.md",
-    "domain/가게저장/컨트롤러.md",
-    "domain/가게저장/지도.md",
-    "😼 깃.md",
-    "domain/가게저장/저장 가게 도메인의 분리- savedstore.md",
-    "domain/가게저장/프론트/html/전체 html.md",
-    "domain/가게저장/서비스.md",
-    "domain/가게저장/유니크 제약조건.md",
-    "domain/가게저장/저장 가게 기능.md",
-    "domain/가게저장/저장 가게 프론트.md",
-    "domain/가게저장/조회의 종류.md",
-    "domain/📎 url.md",
-    "마이페이지 url 패턴.md",
-    "domain/가게저장/프론트/html/저장가게 카테고리 수정 html.md",
-    "domain/가게저장/프론트/html",
-    "domain/가게저장/프론트",
-    "domain",
-    "domain/가게저장",
-    "domain/배지/5",
-    "domain/배지/FE/DTO 설계",
-    "domain/마이페이지/마이페이지 배지",
-    "마이페이지/배지/ㅁ"
-  ]
+  "active": "87d436bde53e5486",
+  "lastOpenFiles": []
 }

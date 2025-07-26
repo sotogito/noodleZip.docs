@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
+                "file": "1차 MVP 개발/Transactional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "배지"
+              "title": "Transactional"
             }
           },
           {
@@ -196,19 +196,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6b1c7f8d8e3f4ad5",
+  "active": "b3b483686adb23b8",
   "lastOpenFiles": [
-    "domain/배지/더미/⭐️ 최종.md",
     "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
+    "1차 MVP 개발/domain/배지/더미/⭐️ 최종.md",
     "1차 MVP 개발/1. 2차 리팩토링 사항",
     "1차 MVP 개발/0. about",
     "1차 MVP 개발",
-    "domain/배지/더미/이미지 있는 버전.md",
-    "domain/배지/더미/지역 및 라멘 카테고리.md",
-    "domain/배지/더미/그룹별 배지.md",
-    "domain/배지/더미/그룹.md",
-    "라멘 카테고리 더미데이터.md",
-    "배지 이미지 생성/배지 이미지 생성 프롬프트.md",
-    "배지 이미지 생성"
+    "1차 MVP 개발/domain/배지/더미/이미지 있는 버전.md",
+    "1차 MVP 개발/domain/배지/더미/지역 및 라멘 카테고리.md",
+    "1차 MVP 개발/domain/배지/더미/그룹별 배지.md",
+    "1차 MVP 개발/domain/배지/더미/그룹.md",
+    "1차 MVP 개발/라멘 카테고리 더미데이터.md",
+    "1차 MVP 개발/배지 이미지 생성/배지 이미지 생성 프롬프트.md",
+    "1차 MVP 개발/배지 이미지 생성"
   ]
 }

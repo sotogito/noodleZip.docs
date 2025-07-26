@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1차 MVP 개발/0. 회고/배지/잘한점.md",
+                "file": "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "잘한점"
+              "title": "배지"
             }
           },
           {
@@ -196,8 +196,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6b1c7f8d8e3f4ad5",
+  "active": "b3b483686adb23b8",
   "lastOpenFiles": [
+    "1차 MVP 개발/0. 회고/트러블슈팅",
+    "1차 MVP 개발/무제",
     "1차 MVP 개발/0. 회고/배지/부족한 부분.md",
     "1차 MVP 개발/0. 회고/배지/잘한점.md",
     "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",

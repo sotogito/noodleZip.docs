@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "배지 이미지 생성 프롬프트"
             }
+          },
+          {
+            "id": "8ab6f921f1473567",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-08-07 11.00.18.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-08-07 11.00.18.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,13 +208,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b3b483686adb23b8",
+  "active": "8ab6f921f1473567",
   "lastOpenFiles": [
+    "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
+    "Excalidraw/Drawing 2025-08-07 11.00.18.excalidraw.md",
+    "Excalidraw",
+    "2차 유지보수",
     "1차 MVP 개발/0. 회고/트러블슈팅",
     "1차 MVP 개발/무제",
     "1차 MVP 개발/0. 회고/배지/부족한 부분.md",
     "1차 MVP 개발/0. 회고/배지/잘한점.md",
-    "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
     "1차 MVP 개발/0. 회고/배지",
     "1차 MVP 개발/0. about/README.md",
     "1차 MVP 개발/0. 회고",

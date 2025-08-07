@@ -39,30 +39,14 @@
             "id": "1f649af2d6fd2cc2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "배지 이미지 생성/배지 이미지 생성 프롬프트.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "배지 이미지 생성 프롬프트"
-            }
-          },
-          {
-            "id": "8ab6f921f1473567",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-08-07 11.00.18.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-08-07 11.00.18.excalidraw"
+              "title": "새 탭"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,10 +192,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8ab6f921f1473567",
+  "active": "1f649af2d6fd2cc2",
   "lastOpenFiles": [
-    "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
     "Excalidraw/Drawing 2025-08-07 11.00.18.excalidraw.md",
+    "1차 MVP 개발/1. 2차 리팩토링 사항/배지.md",
     "Excalidraw",
     "2차 유지보수",
     "1차 MVP 개발/0. 회고/트러블슈팅",
